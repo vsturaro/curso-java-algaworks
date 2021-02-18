@@ -1,0 +1,15 @@
+package cursoLogica;
+
+import java.util.Scanner;//ctrl+shift+o para importar blibliotecas
+
+public class CalcularTroco {
+	
+	public static void main(String[] args) {
+		java.util.Scanner scanner = new Scanner(System.in); //uma das maneiras de fazer leitura de dados informados pelo usuario
+		
+		Double valorProduto = scanner.nextDouble();//valorProduto variavel que recebera o valor digitado
+		
+		System.out.println("Valor do produto: " + valorProduto); //+ operador concatenacao
+	}
+
+}
